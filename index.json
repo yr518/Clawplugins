@@ -26,15 +26,15 @@
   },
   {
     "name": "cline",
-    "version": "0.2.1",
+    "version": "0.2.0",
     "author": "yr518",
     "label": {
       "en": "Cline",
       "zh": "Cline"
     },
     "published_at": "2026-10-16",
-    "download_url": "https://github.com/yr518/clawplugins/releases/download/cline-v0.2.1/cline-0.2.1.cphplugin",
-    "sha256": "c785d9ce4c0b63374d74f43e7d5cb3adf87e899f49d777de5d0f0407d4eded76"
+    "download_url": "https://github.com/yr518/clawplugins/releases/download/cline-v0.2.0/cline-0.2.0.cphplugin",
+    "sha256": "17a9a0b62aa30cc15c68ed244e40be17e3ee22ced3ade3e641632f2b4c3e1bcc"
   },
   {
     "name": "cnb",
