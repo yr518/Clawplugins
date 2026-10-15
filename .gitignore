@@ -1,0 +1,24 @@
+# ⚠️ 本仓库只允许 index.json 入库(成品分发仓库,源码保密)
+# 默认忽略一切,仅白名单放行;防止 git add -A / git add . 误推源码
+/*
+!/index.json
+!/.gitignore
+!/build/
+!/plugins-go/
+!/plugins-lua/
+!/shared/
+!/tools/
+
+# build/ 里只保留 .cphplugin 成品
+build/*
+!build/*.cphplugin
+
+# 源码目录内部: 忽略全部源码文件,只放行目录本身(目录内内容全部忽略)
+plugins-go/**
+plugins-lua/**
+shared/**
+tools/**
+!plugins-go/**/
+!plugins-lua/**/
+!shared/**/
+!tools/**/
